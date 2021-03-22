@@ -1,0 +1,162 @@
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+
+/* body{ */
+	/* font-family: 'Della Respira', serif!important; */
+/* } */
+h5,h6{
+  font-size:30px!important;
+}
+.header_widgets>ul{
+	padding:10px!important;
+}
+.header_widgets>ul>li>a{
+	color:black!important;
+	
+}
+.header_widgets>ul>li>a,.myNav_item>ul>li>a{
+font-size:16px!important;
+}
+
+.myNav_item>ul>li>a{
+	color:white!important;
+}
+nav{
+   background: rgb(67 47 110);
+   padding:10px;
+}
+
+.logo>img {
+width: 340px!important;
+
+}
+
+p{
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    padding: 20px 0px;
+}
+.pad-10,.header_widgets{
+	padding:10px!important;
+}
+
+.color-green{
+	color: rgb(92 192 18)!important;
+}
+.color-blue{
+	color: rgb(67 47 110)!important;
+}
+
+section{
+ 
+    background: rgb(245 245 220);
+	padding: 77px 0px 54px 0px;
+}
+article{
+  
+    padding: 130px 0px 0px 0px;
+	
+}
+
+section:after{
+	
+    content: "";
+    position: absolute;
+    width: 50%;
+	background:rgb(92 192 18);
+    height: 83px;
+    transform: skewY(9deg);
+	box-shadow: 0px 57px 37px 1px #f1f1f1;
+
+}
+.layer:after{
+
+    content: "";
+    position: absolute;
+    width: 50%;
+	
+	background: rgb(67 47 110);
+    height: 83px;
+    transform: skewY(170deg);
+  box-shadow: 0px 57px 37px 1px #f1f1f1;
+    right: 0px;
+    top: 589px;
+}
+.my-content{
+	padding: 40px 0px!important;
+}
+.mybtn {
+    background: linear-gradient( 157deg ,rgb(24 173 3),rgb(67 47 110));
+    color: rgb(255 255 255);
+    padding: 10px 20px;
+    border: none;
+border-radius: 4px;}
+
+
+
+.my_facility{
+	padding: 60px 20px;
+    background: rgb(255 255 255);
+    box-shadow: 0px 8px 17px 10px #80808012;
+    border-radius: 6px;
+    margin: 20px 0px;
+    cursor: pointer;
+    height: 300px;
+
+}
+.my_facility:hover .facility{
+	transform: rotateY(350deg);
+	transition:0.8s;
+}
+.my_facility:hover:after{
+ width: 50%;
+ transition:0.4s;
+}
+.my_facility:after{
+	    content: "";
+    position: absolute;
+    border: 2px solid;
+    height: 0px;
+    width: 10%;
+	border-color:rgb(24 173 3);
+ 
+   
+}
+.my_department{
+    background: rgb(250 235 215);
+    padding: 70px 30px;
+    background: linear-gradient( 157deg,rgb(24 173 3),rgb(67 47 110));
+    color: rgb(255 255 255);
+}
+.my_department>ul>li>a{
+  color:white!important;
+    font-size:19px!important;
+}
+
+
+
+.my_vactor{
+  animation-name: slide;
+  animation-duration: 40000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+	position: absolute;
+	width: 200px;
+	top: 448px;
+	right: 0px;
+	    z-index: 99999999;
+}
+
+
+@keyframes slide {
+    from {
+      transform: translateX(-1224px);
+    }
+    to {
+       transform: translateX(0px);
+    }
+}

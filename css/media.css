@@ -1,0 +1,25 @@
+@media(max-width:1200px){
+.logo>img {
+    width: 100%!important;
+}.my_facility {
+    
+    height: auto;
+}.layer:after {
+        content: "";
+    position: absolute;
+    width: 50%;
+    background: rgb(67 47 110);
+    height: 83px;
+    transform: skewY(170deg);
+    box-shadow: 0px 57px 37px 1px #f1f1f1;
+    right: 0px;
+    border: 0px;
+    top:1000px;
+}
+section {
+    background: rgb(245 245 220);
+    padding: 99px 0px 0px 0px;
+}
+.myNav_item{
+display: none;}
+}
